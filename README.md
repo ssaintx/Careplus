@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/ssaintx/Careplus/assets/149256879/a8885fc1-6b0e-403f-87ce-f0a98aeb9b6a" alt="cover" />
+  <h1>Careplus</h1> 
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -19,6 +24,25 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Set up environment
+```
+.env.local
+# appwrite id's from db
+PROJECT_ID=
+API_KEY=
+DATABASE_ID=
+PATIENT_COLLECTION_ID=
+DOCTOR_COLLECTION_ID=
+APPOINTMENT_COLLECTION_ID=
+NEXT_PUBLIC_BUCKET_ID=
+NEXT_PUBLIC_ENDPOINT=
+# admin passkey
+NEXT_PUBLIC_ADMIN_PASSKEY=
+# sentry token
+SENTRY_AUTH_TOKEN=
+```
+
 
 ## Learn More
 
